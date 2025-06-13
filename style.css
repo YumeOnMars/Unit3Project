@@ -1,0 +1,45 @@
+body {
+    background-image: url("images/HomeBackground.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    font-size: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20vh;
+    margin-top: 9vh;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.154);
+}
+
+.HomeMenuContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#StartButton {
+    height: 80px;
+    width: 250px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:white;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border: white solid 3px;
+    text-decoration: none;
+    
+}
+
+#StartButton a {
+    text-decoration: none;
+    color:white
+}
+
+button:hover {
+    scale: 1.05;
+    transition: ease 0.1s;
+}
+

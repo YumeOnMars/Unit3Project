@@ -1,0 +1,86 @@
+html {
+    background-image: url(/images/mysteriouswallet.png);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20vh;
+    margin-top: 9vh;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 12px;
+}
+
+.MysteriousWalletPage {
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    gap: 30vw;
+}
+
+button:hover {
+    scale: 1.05;
+    transition: ease 0.1s;
+}
+
+.MysteriousWalletPage button {
+    background-color: rgba(255, 255, 255, 0.38);
+    width: 300px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 20px;
+    animation: breathing .5s ease-out infinite alternate;
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(0.97);
+    }
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+
+.Opened button {
+    background-color: rgba(0, 0, 0, 0.38);
+    width: 300px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 20px;
+    color:white;
+    border: solid black 2px;
+    animation: breathing .5s ease-out infinite alternate;
+}
+
+
+.InsideWalletOptions {
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    gap: 12vw;
+}
+
+
+
+#OpenedHeader {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.Beginning {
+    display: inline;
+}
+
+.Opened {
+    display:none;
+
+}
+
